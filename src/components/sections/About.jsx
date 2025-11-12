@@ -9,7 +9,7 @@ export const About = () => {
     "Svelte",
   ];
 
-  const backendSkills = ["Node.js", "Pyhton", "AWS", "MongoDB", "GraphQL"];
+  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
 
   return (
     <section
