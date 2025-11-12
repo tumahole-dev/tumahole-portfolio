@@ -3,7 +3,7 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const Projects = () => {
   return (
     <section
-      id="about"
+      id="projects"
       className="min-h-screen flex items-center justify-center py-20"
     >
       <RevealOnScroll>
