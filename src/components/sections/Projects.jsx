@@ -14,13 +14,12 @@ export const Projects = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-lime-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-            <h3 className="text-xl font-bold mb-2">Cloud Platform</h3>
+            <h3 className="text-xl font-bold mb-2">MediCheck AI</h3>
             <p className="text-gray-400 mb-4">
-              Scalable cloud infrastructure management with real-time monitoring
-              and automated scaling.
+              AI-powered symptom checker chatbot for students and general users.
             </p>
             <div>
-              {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
+              {["React", "TanStack Start", "Tailwind CSS", "Lovable Cloud (Supabase)"].map((tech, key) => (
                  <span
                     key={key}
                     className=" cursor-pointer bg-lime-500/10 text-lime-500 px-3 py-1 rounded-full text-sm hover:bg-lime-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
@@ -31,18 +30,17 @@ export const Projects = () => {
             </div>
 
             <div className="flex justify-between items-center">
-                <a href="#" className="text-lime-400 hover:text-lime-300 transition-colors my-4">View Project →</a>
+                <a href="https://check-my-symptoms.lovable.app/" target="_blank" className="text-lime-400 hover:text-lime-300 transition-colors my-4">View Project →</a>
             </div>
           </div>
 
           <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-lime-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-            <h3 className="text-xl font-bold mb-2">AI Analystics Dashboard</h3>
+            <h3 className="text-xl font-bold mb-2">Sentilytics</h3>
             <p className="text-gray-400 mb-4">
-              Scalable cloud infrastructure management with real-time monitoring
-              and automated scaling.
+              A modern, production-ready sentiment analysis dashboard.
             </p>
             <div>
-              {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
+              {["React 19", "TanStack Start", "Tailwind CSS", "Recharts"].map((tech, key) => (
                  <span
                     key={key}
                     className=" cursor-pointer bg-lime-500/10 text-lime-500 px-3 py-1 rounded-full text-sm hover:bg-lime-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
@@ -53,18 +51,17 @@ export const Projects = () => {
             </div>
 
             <div className="flex justify-between items-center">
-                <a href="#" className="text-lime-400 hover:text-lime-300 transition-colors my-4">View Project →</a>
+                <a href="https://sentilytics-dashboard.lovable.app/" target="_blank" className="text-lime-400 hover:text-lime-300 transition-colors my-4">View Project →</a>
             </div>
           </div>
 
           <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-lime-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-            <h3 className="text-xl font-bold mb-2">E-Commerce Web App</h3>
+            <h3 className="text-xl font-bold mb-2">NoteGenius</h3>
             <p className="text-gray-400 mb-4">
-              Scalable cloud infrastructure management with real-time monitoring
-              and automated scaling.
+              Study smarter. Learn faster. An AI-powered study companion that turns any topic into structured notes, key bullet points, and practice quizzes in seconds.
             </p>
             <div>
-              {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
+              {["React", "TanStack Start", "Tailwind CSS", "Lovable Cloud (Supabase)"].map((tech, key) => (
                  <span
                     key={key}
                     className=" cursor-pointer bg-lime-500/10 text-lime-500 px-3 py-1 rounded-full text-sm hover:bg-lime-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
@@ -75,18 +72,17 @@ export const Projects = () => {
             </div>
 
             <div className="flex justify-between items-center">
-                <a href="#" className="text-lime-400 hover:text-lime-300 transition-colors my-4">View Project →</a>
+                <a href="https://note-genius-ai-58.lovable.app/" target="_blank" className="text-lime-400 hover:text-lime-300 transition-colors my-4">View Project →</a>
             </div>
           </div>
 
           <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-lime-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-            <h3 className="text-xl font-bold mb-2">Real-Time Chat App</h3>
+            <h3 className="text-xl font-bold mb-2">BudgetBot</h3>
             <p className="text-gray-400 mb-4">
-              Scalable cloud infrastructure management with real-time monitoring
-              and automated scaling.
+              A conversational AI chatbot that helps South Africans take control of their personal finances — no bank account access, no jargon, just practical guidance.
             </p>
             <div>
-              {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
+              {["React", "TanStack Start", "Tailwind CSS", "Loavable Cloud (Supabase)"].map((tech, key) => (
                  <span
                     key={key}
                     className=" cursor-pointer bg-lime-500/10 text-lime-500 px-3 py-1 rounded-full text-sm hover:bg-lime-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
@@ -97,7 +93,7 @@ export const Projects = () => {
             </div>
 
             <div className="flex justify-between items-center">
-                <a href="#" className="text-lime-400 hover:text-lime-300 transition-colors my-4">View Project →</a>
+                <a href="https://budgetbot-money-mentor.lovable.app/" target="_blank" className="text-lime-400 hover:text-lime-300 transition-colors my-4">View Project →</a>
             </div>
           </div>
         </div>
